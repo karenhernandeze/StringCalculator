@@ -9,7 +9,6 @@ public class StringCalculator {
 			for (String num: numbersArray) {
 				sum += Integer.parseInt(num);
 			}
-			
 			return sum;
 		} else return 0;
 	}
